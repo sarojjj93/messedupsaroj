@@ -1,70 +1,14 @@
-<!doctype html>
-
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" >
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <title>CodePen - Ambient Background</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
 
-  <title>Happy New Year</title>
-  <meta name="description" content="A simple HTML5 Template for new projects.">
-  <meta name="author" content="SitePoint">
-
-  <meta property="og:title" content="A Basic HTML5 Template">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
-  <meta property="og:description" content="A simple HTML5 Template for new projects.">
-  <meta property="og:image" content="image.png">
-
-  <link rel="icon" href="/favicon.ico">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-
-  <style>
-    body {
-      background-color: #ffffff;
-      margin: 0px;
-      padding: 0px;
-      background-image: url(assets/Flower-Purple-With-Lavender.png);
-    }
-    br {
-      background-color: #ffffff;
-      margin: 0px;
-      padding: 0px;
-      line-height: 0px;
-    }
-    div {
-      padding : 0px;
-      margin : 0px;
-    }
-    .div1 {
-      margin : -2px;
-      letter-spacing: -1px;
-      line-height: 15px;
-      display: inline-block;
-    }
-    .div2 {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-    }
-    .div3 {
-      margin-bottom: 20px;
-    }
-    .div4 {
-      margin-top: 20px;
-    }
-    .div5 {
-      margin-top: 15px;
-      color: #ffffff;
-      font-weight: bold;
-      font-family: "Gill Sans", sans-serif;
-    }
-  </style>
 </head>
-
 <body>
+  <canvas id="projector">Your browser does not support the Canvas element.</canvas>
   <div>
     <!-- Main Frame -->
     <div class="div3"></div>
@@ -215,6 +159,7 @@
     </div>
     <div class="div4"></div>
   </div>
-  <script src="js/scripts.js"></script>
+  <script src='https://code.createjs.com/easeljs-0.7.1.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js'></script><script  src="./script.js"></script>
 </body>
 </html>
